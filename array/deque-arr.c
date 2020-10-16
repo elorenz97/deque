@@ -125,14 +125,12 @@ int first (deque * q)
 }
 
 void all (deque * q)
-{  int s = q->first;
+{   int s = q->first;
     for(int i = 0; i < q->count; i++)
     {
-    printf("------------\n");
-    printf("|%10i|",q->values[s]);
-    printf("\n");
-    printf("------------\n");
+    printf("------------");
+    printf("|%i|",q->values[s]);
+    printf("------------");
     s++;
     }
-
 }

@@ -25,7 +25,7 @@ int put(deque * q,int val);
 int get (deque * q);
 //nur auslesen
 int first (deque * q);
-// alle ausgeben4
+// alle ausgeben
 void all(deque * q);
 
 

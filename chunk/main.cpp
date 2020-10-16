@@ -6,9 +6,11 @@ using namespace std;
   
 int main() 
 {
+	
   auto start = std::chrono::high_resolution_clock::now();
-    deque <int> gquiz; 
- 
+    
+	deque <int> gquiz; 
+ cout<< sizeof(gquiz) << endl;
 
     for(int i = 0; i < 500000;i++)
     {

@@ -1,4 +1,4 @@
-#include "../array/deque-arr.h"
+#include "deque-dll.h"
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <stdlib.h>
